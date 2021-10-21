@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 void main() {
   return runApp(
     MaterialApp(
+      title:'Dice in Flutter',
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
